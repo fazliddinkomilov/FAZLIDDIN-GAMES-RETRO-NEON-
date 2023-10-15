@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6b54645b230a948bc672be7fcdbf91, type: 3}
+  m_Name: MegaSkillData
+  m_EditorClassIdentifier: 
+  AdminPassword: 
+  Levels: []
+  FinishScene: FinishMenu
+  StatsSheetURL: 
+  ENTRY_DeviceID: entry.1124466930
+  ENTRY_Region: entry.664169668
+  ENTRY_Mode: entry.594185121
+  ENTRY_Name: entry.116202082
+  ENTRY_Group: entry.16747230
+  ENTRY_StudentID: entry.919100097
+  ENTRY_Score: entry.1422784263
+  ENTRY_Duration: entry.741377427
+  ENTRY_Attempts: entry.1211038660
+  ENTRY_TeamName: entry.1107303370
+  ENTRY_Team_Score: entry.200428432
+  RegionsURL: https://docs.google.com/spreadsheets/d/1pPJKKx-W_KXJQsdiemyWwz4TWNhTxJn7mRdMz1mh7Yg/gviz/tq?tqx=out:csv&sheet=Sheet1
+  ConnectionCheckURL: https://docs.google.com/spreadsheets/d/1pPJKKx-W_KXJQsdiemyWwz4TWNhTxJn7mRdMz1mh7Yg/gviz/tq?tqx=out:csv&sheet=ConnectionTest

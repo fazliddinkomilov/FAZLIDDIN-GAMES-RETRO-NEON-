@@ -1,0 +1,94 @@
+{
+    "name": "Input",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "42e075de-e358-4d7f-90de-a4ebcd98ba39",
+            "actions": [
+                {
+                    "name": "LTrigger",
+                    "type": "Button",
+                    "id": "a0595000-3d51-4bcd-a85c-3a2627983cc8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RTrigger",
+                    "type": "Button",
+                    "id": "4d8b6c31-e88c-4728-92bc-4a2b041066e9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LGrip",
+                    "type": "Button",
+                    "id": "412c4dde-5130-4af1-b71a-e65af3966438",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RGrip",
+                    "type": "Button",
+                    "id": "eb47ed02-e6bf-4eeb-b853-bc23b1b9360f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "df58af05-f049-4d77-88bd-3824b7f88bd2",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b1b62e87-6817-401b-bf7a-44bd4cc8efb7",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d59dce4a-3df3-42d9-979c-4a8b0caa68e7",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "87e8cdef-8fac-4cf1-b55a-1ffdf8fb0b6b",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
